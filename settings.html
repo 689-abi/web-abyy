@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pengaturan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-blue-600">MyApp</h1>
+    <div class="space-x-4">
+      <a href="halaman2.html" class="text-gray-700 hover:underline">Dashboard</a>
+      <a href="webab1.html.html" class="text-red-500 hover:underline">Logout</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-2xl mx-auto p-6">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Pengaturan Akun</h2>
+
+    <form class="space-y-6 bg-white p-6 rounded-2xl shadow">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap</label>
+        <input type="text" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500" placeholder="Nama Anda" />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+        <input type="email" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500" placeholder="email@example.com" />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Ubah Password</label>
+        <input type="password" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500" placeholder="Password baru" />
+      </div>
+
+      <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-xl font-semibold transition">
+        Simpan Perubahan
+      </button>
+    </form>
+  </main>
+
+</body>
+</html>
